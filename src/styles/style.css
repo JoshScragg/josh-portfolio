@@ -111,10 +111,9 @@ h1 {
 }
 
 .project-image {
-  flex: 1;
-  width: 100%;
-  max-width: 300px;
-  max-height: 200px;
+  flex: 0 0 auto;
+  width: 240px;
+  height: 135px;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -123,7 +122,7 @@ h1 {
 
 .project-image img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   border-radius: 5px;
 }
@@ -150,6 +149,17 @@ h1 {
 .project-description h2 {
   font-size: 2em;
   margin-bottom: 0.5em;
+}
+
+.project-description h2 a {
+  color: #8DA9C4;
+  text-decoration: underline;
+  text-decoration-color: #FCDEBE;
+  cursor: pointer;
+}
+
+.project-description h2 a:hover {
+  opacity: 0.8;
 }
 
 footer {

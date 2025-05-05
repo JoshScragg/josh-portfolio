@@ -7,3 +7,23 @@
 /**
  * @type {import('gatsby').GatsbyNode['createPages']}
  */
+exports.onCreateWebpackConfig = ({ actions }) => {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /\.pdf$/,
+            use: [
+              {
+                loader: 'file-loader',
+                options: {
+                  name: '[name].[ext]',
+                  outputPath: 'pdf/'
+                }
+              }
+            ]
+          }
+        ]
+      }
+    });
+  };

@@ -4,11 +4,9 @@ const About: React.FC = () => {
   return (
     <section className="about-container">
       <p className="intro">
-        I've always had an interest in computers, but it wasn't untill i began playing video games did i really find my interest in programming.
-        Seeing people cheat in games i always wondered how, so i started learning how to break the games i was playing from there 
-        i was hooked, and as i leanred how to break things i began to understand how things worked and instead of breaking things fell in love width
-        creating. The fact that i could take any idea i had and make it a reality always astonished me, and is the reason i continue to be obsessed 
-        with this field.
+      I've always been into computers, but it wasn't until I got deep into gaming that I really discovered programming. I'd see players modifying games and got super curious about how that stuff worked behind the scenes. So I started tinkering with games myself, figuring out how to bend the rules a bit.
+
+What started as me just messing around with game systems turned into something way cooler - I actually began understanding how software is built. Before long, I was more interested in creating my own stuff than breaking existing things. There's something mind-blowing about taking random ideas from my head and turning them into something real through code. That feeling still gets me every time, and it's why I'm still obsessed with this whole field.
       </p>
     </section>
   );
