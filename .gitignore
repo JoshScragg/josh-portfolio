@@ -1,0 +1,74 @@
+# Gatsby build output
+public/
+.cache/
+.netlify/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Build reports
+coverage/
+.nyc_output
+
+# Gatsby incremental rebuilding
+.gatsby-context.js
+.gatsby-reloadable.js
+
+# Local Netlify folder
+.netlify
+
+# Gatsby cache-dir
+.cache/
+
+# Gatsby public folder
+public
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variable files
+.env*
+!.env.example
+
+# gatsby files
+.cache/
+public
+
+# Mac files
+.DS_Store
+
+# Yarn
+yarn-error.log
+.pnp/
+.pnp.js
+# Yarn Integrity file
+.yarn-integrity
